@@ -1,0 +1,14 @@
+#include int main()
+{
+int a, b;
+printf("Digite um valor para A: ");
+scanf("%d", &a);
+printf("Digite um valor para B: ");
+scanf("%d", &b);
+
+printf("O novo valor de A é: %d \n", b);
+printf("O novo valor de B é: %d \n", a);
+
+
+return 0;
+}
