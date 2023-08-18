@@ -14,3 +14,5 @@ printf("Se você parcelar em 2 vezes o valor das parcelas será de: %.2f \n", m2
 printf("Se você parcelar em 3 vezes o valor das parcelas será de: %.2f \n", m3);
 printf("Se você parcelar em 4 vezes o valor das parcelas será de: %.2f \n", m4);
 printf("Se você parcelar em 5 vezes o valor das parcelas será de: %.2f \n", m5);
+return 0;
+}
