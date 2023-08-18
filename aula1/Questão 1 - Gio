@@ -1,0 +1,12 @@
+#include int main()
+{
+int num, lbk, sus;
+
+printf("Digite um número: ");
+scanf("%d", &num);
+printf("Digite outro número: ");
+scanf("%d", &lbk);
+sus = num + lbk;
+printf("%d", sus);
+return 0;
+}
