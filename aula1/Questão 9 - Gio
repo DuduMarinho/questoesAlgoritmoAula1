@@ -1,0 +1,14 @@
+#include int main()
+{
+float dep, juros;
+printf("Digite quanto você depositou: ");
+scanf("%f", &dep);
+
+juros = (dep * 0.007) + dep;
+
+printf("Seu saldo com rendimento é: %.2f \n", juros);
+
+
+
+return 0;
+}
