@@ -1,0 +1,14 @@
+#include int main()
+{
+float dol, real;
+printf("Digite quantos dólares você tem: ");
+scanf("%f", &dol);
+
+real = dol * 4.97;
+
+printf("A sua quantia em reais é: %.2f \n", real);
+
+
+
+return 0;
+}
