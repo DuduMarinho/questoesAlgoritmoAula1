@@ -1,0 +1,15 @@
+#include int main()
+{
+float com, valn, valn2;
+printf("Digite o preço de custo do veículo: ");
+scanf("%f", &com);
+
+valn = ((com * 45)/100) + com;
+valn2 = ((valn * 28/100)) + valn;
+
+printf("O valor de custo é: %.2f \n", com);
+printf("O valor final somando impostos e a porcentagem do vendedor é: %.2f \n", valn2);
+
+
+return 0;
+}
