@@ -1,0 +1,16 @@
+#include int main()
+{
+float com, porc, valn;
+printf("Digite o preço de custo: ");
+scanf("%f", &com);
+
+printf("Digite o percentual de acréscimo que o produto terá: ");
+scanf("%f", &porc);
+
+valn = (com * porc /100) + com;
+
+printf("O valor de venda deverá ser: %.2f \n", valn);
+
+
+return 0;
+}
