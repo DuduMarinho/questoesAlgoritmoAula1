@@ -1,0 +1,20 @@
+#include int main()
+{
+char pessoa;
+int n1, n2, n3, nota;
+
+printf("Informe seu nome: ");
+scanf("%s", &pessoa);
+printf("Informe quanto você tirou na primeira prova: ");
+scanf("%d", &n1);
+printf("Informe quanto você tirou na segunda prova: ");
+scanf("%d", &n2);
+printf("Informe quanto você tirou na terceira prova: ");
+scanf("%d", &n3);
+
+nota = ((n1 + n2 + n3) /3);
+
+printf("Sua média final é: %d \n", nota);
+
+return 0;
+}
