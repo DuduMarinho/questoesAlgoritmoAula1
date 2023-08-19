@@ -1,0 +1,240 @@
+QUESTAO 1----
+
+#include <stdio.h>
+
+ int main ()
+{
+  
+int num1, num2, result;
+  
+    printf ("Digite o numero 1: ");
+    scanf ("%d", &num1);
+    printf ("Digite o numero 2: ");
+    scanf ("%d", &num2);
+    result = num1 + num2;
+      
+    printf ("%d", result);
+
+}
+
+QUESTAO 2 ---------
+
+#include <stdio.h>
+
+int main() 
+{
+    float num1, num2, soma, subtracao, divisao;
+  
+    printf ("Digite o numero 1: " ); 
+    scanf  ("%f", &num1);
+    printf ("Digite o numero 2: " ); 
+    scanf  ("%f", &num2);
+    soma       = num1 + num2;
+    subtracao  = num1 - num2;
+    divisao    = num1 / num2;
+
+    printf ("Soma: %.2f\n", soma);
+    printf ("Subtração: %.2f\n", subtracao);
+    printf ("Divisão: %.2f\n", divisao);
+
+    return 0;
+}
+
+QUESTAO 3 --------
+
+#include <stdio.h>
+
+int main() {
+    float distancia, tanque, consumoMedio;
+
+    printf("Digite a distancia total percorrida em km: ");
+    scanf("%f", &distancia);
+    printf("Digite o total de combustivel gasto em litros: ");
+    scanf("%f", &tanque);
+
+    consumoMedio = distancia / tanque;
+
+    printf("O consumo medio do automovel foi de %.2f km/l\n", consumoMedio);
+
+    return 0;
+}
+
+QUESTAO 4 ----------
+
+#include <stdio.h>
+
+int main() 
+{
+    //declaração de variáveis
+    char nome;
+    float salarioFixo, comissao, totalDeGanhos;
+    int totalDeVendasMes;
+    
+    //entrada do usuario 
+    printf("Informe seu nome: ");
+    scanf("%s", &nome);
+    printf("Informe seu salário fixo: ");
+    scanf("%f", &salarioFixo);
+    printf("Quantidade de vendas no mês: ");
+    scanf("%d", &totalDeVendasMes);
+
+    //calculo de comissão
+    comissao = totalDeVendasMes * 0.15;
+    
+}
+
+QUESTAO 5 ---------
+
+#include <stdio.h>
+
+    int main()
+{
+    
+    char nome
+    int nota1, nota2, nota3, nota;
+
+    printf("Digite seu nome: ");
+    scanf("%s", &nome);
+    printf("Digite sua nota na primeira prova: ");
+    scanf("%d", &nota1);
+    printf("Digite sua nota na segunda prova: ");
+    scanf("%d", &nota2);
+    printf("Digite sua nota na terceira prova: ");
+    scanf("%d", &nota3);
+
+    nota = ((nota1 + nota2 + nota3) /3);
+
+    printf("Sua média final é: %d \n", nota);
+
+    return 0;
+}
+
+QUESTAO 6 --------
+
+#include <stdio.h>
+
+    int main()
+{
+    int num1, num2;
+    printf("Digite um numero para A: ");
+    scanf("%d", &num1);
+    printf("Digite um numero para B: ");
+    scanf("%d", &num2);
+    
+    printf("O novo valor de A é: %d \n", num2);
+    printf("O novo valor de B é: %d \n", num1);
+    
+    return 0;
+}
+
+QUESTAO 7 ----------
+
+#include <stdio.h> 
+
+    int main()
+{
+    float temp,celsius;
+    
+    printf("Diga uma temperatura em Fahrenheit e veja ela em Celsius: ");
+    scanf("%f", &temp);
+    celsius = ((temp-32) * 5/9);
+    printf("Essa temperatura em Celsius é: %.1f°C \n", celsius);
+    
+    return 0;
+}
+
+QUESTAO 8 -----------
+
+#include <stdio.h>
+
+    int main()
+{
+    float dolar, real;
+    
+    printf("Digite a quantia em dólares: ");
+    scanf("%f", &dolar);
+    
+    real = dolar * 4.97;
+    printf("A sua quantia em reais é: $%.2f \n", real);
+    
+    return 0;
+}
+
+QUESTAO 9 -----------
+
+#include <stdio.h>
+    
+    int main()
+{
+    float deposito, juros;
+    printf("Digite qual seu valor de depósito em reais: ");
+    scanf("%f", &deposito);
+    
+    juros = (deposito * 0.007) + deposito;
+    printf("Seu saldo com rendimento será de: R$%.2f \n", juros);
+    
+    return 0;
+}
+
+QUESTAO 10 -----------
+
+#include <stdio.h>
+    
+    int main()
+{
+    float precoBase, duasParcelas, tresParcelas, quatroParcelas, cincoParcelas;
+    printf("Digite o valor do seu produto: ");
+    scanf("%f", &precoBase);
+    
+    duasParcelas = precoBase / 2;
+    tresParcelas = precoBase / 3;
+    quatroParcelas = precoBase / 4;
+    cincoParcelas = precoBase / 5;
+    
+    printf("Sua compra à vista sairá no valor de: %.2f \n", precoBase);
+    printf("Se você parcelar em 2 vezes o valor das duas parcelas serão de: %.2f \n", duasParcelas);
+    printf("Se você parcelar em 3 vezes o valor das tres parcelas serão de: %.2f \n", tresParcelas);
+    printf("Se você parcelar em 4 vezes o valor das quatro parcelas serão de: %.2f \n", quatroParcelas);
+    printf("Se você parcelar em 5 vezes o valor das cinco parcelas serão de: %.2f \n", cincoParcelas);
+    return 0;
+}
+
+QUESTAO 11 -----------
+
+#include <stdio.h> 
+    
+    int main()
+{
+    float precoCusto, percAdcional, valorFinal;
+    printf("Digite o valor original do seu produto: ");
+    scanf("%f", &precoCusto);
+    
+    printf("Digite o percentual que será acrescido ao seu produto: ");
+    scanf("%f", &percAdcional);
+    
+    valorFinal = (precoCusto * percAdcional /100) + precoCusto;
+    
+    printf("O valor final do produto com o acréscimo deverá ser de: R$%.2f \n", valorFinal);
+    return 0;
+}
+
+QUESTAO 12  -----------
+
+#include <stdio.h> 
+    
+    int main()
+{
+    float precoOriginal, acrescimo1, acrescimo2;
+    printf("Digite o preço original do veículo: ");
+    scanf("%f", &precoOriginal);
+    
+    acrescimo1 = ((precoOriginal * 45)/100) + precoOriginal;
+    acrescimo2 = ((valn * 28/100)) + acrescimo1;
+    
+    printf("O preço original é: %.2f \n", precoOriginal);
+    printf("O valor final somando todos os acrescimos é de: R$%.2f \n", acrescimo2);
+    
+    return 0;
+}
+
+
